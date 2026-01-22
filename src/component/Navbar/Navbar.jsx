@@ -16,7 +16,7 @@ const Navbar = () => {
         {/* Auth Actions */}
         <div className="hidden md:flex items-center space-x-4">
           <Link to="/Login" className="text-yellow-300 hover:text-white">Login</Link>
-          <Link to="/Login" className="text-yellow-300 hover:text-white bg-black px-4 py-2 rounded-md">Register</Link>
+          <Link to="/Signup" className="text-yellow-300 hover:text-white bg-black px-4 py-2 rounded-md">SignUp</Link>
         </div>
       </div>
     </div>

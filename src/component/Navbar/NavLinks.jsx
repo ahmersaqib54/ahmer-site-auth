@@ -5,7 +5,7 @@ const NavLinks = () => {
   const  linkClass = "text-yellow-600 hover:text-white transition";
   return (
     <>
-    <NavLink to="/Home" className={linkClass}>
+    <NavLink to="/" className={linkClass}>
     Home
     </NavLink>
     <NavLink to="/Products" className={linkClass}>
